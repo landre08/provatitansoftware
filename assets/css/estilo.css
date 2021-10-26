@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(51, 104, 161);
+    margin-bottom: 50px;
+    color: #FFF;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btn-adicionar{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(38, 176, 46);
+    text-decoration: none;
+    color: #FFF;
+}
+
+#btn-adicionar:hover{
+    background-color: #FFF;
+    color: rgb(38, 176, 46);
+    border: 1px solid rgb(38, 176, 46);
+}
+
+.btn-voltar{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #AAA;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #AAA;
+}
+
+.btn-voltar:hover{
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #AAA;
+}
+
+#form-pesq{
+    padding: 40px;
+}
+
+#form-pesq label{
+    padding: 20px;
+}
+
+#form-pesq input, #form-pesq select{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#btn_pesquisar{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #AAA;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#btn_pesquisar:hover{
+    background-color: #FFF;
+    color: #AAA;
+    border: 1px solid #AAA;
+}
+
+#btn_editar{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #C6C414;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#btn_editar:hover{
+    background-color: #FFF;
+    color: #C6C414;
+    border: 1px solid #C6C414;
+}
+
+#btn_excluir{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #B31D0E;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#btn_excluir:hover{
+    background-color: #FFF;
+    color: #B31D0E;
+    border: 1px solid #B31D0E;
+}
+
+.container-main table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.container-main th, td{
+    border: 1px solid #AAA;
+    padding: 15px;
+}
+
+#form-adicionar{
+    padding: 40px;
+}
+
+#form-adicionar label{
+    padding: 20px;
+}
+
+#form-adicionar input, #form-adicionar select{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#btn-adiconar{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(38, 176, 46);
+    text-decoration: none;
+    color: #FFF;
+}
+
+#btn-adiconar:hover{
+    background-color: #FFF;
+    color: rgb(38, 176, 46);
+    border: 1px solid rgb(38, 176, 46);
+}
+
+#msg-adicionar{
+    background-color: #C6C414;
+    color: #FFF;
+    text-align: center;
+}
+
+thead{
+    background-color: #3C84D5 
+}
