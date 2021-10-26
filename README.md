@@ -1,4 +1,3 @@
-# provatitansoftware
 # **Instruções**
 ## CRUD em PHP - Titan Software.
 
@@ -8,6 +7,7 @@ _Instalação do Sistema:_
 2. Rode o scrip do banco de dados (script_banco_lucianoandre.sql)
 3. Chamada na URL: localhost/lucianoandre
 4. Trocar no arquivo: conexao.php o usuário e senha do usuário do mysql que você utiliza
+5. O teste de MySQL se encontra-se no documento: Teste de SQL.doc, na raiz do projeto
 
 _Ferramentas utilizadas:_
 - `PHP 7.4`
